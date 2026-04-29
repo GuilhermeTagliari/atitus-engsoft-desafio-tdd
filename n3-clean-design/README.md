@@ -1,8 +1,13 @@
-# Desafio Nível 3: Clean Design (Vouchers)
+# 🔴 Nível 3: Clean Design
 
-Aplique o ciclo TDD completo para implementar uma `CalculadoraVoucher`.
+Implemente uma `CalculadoraVoucher` do zero utilizando o ciclo TDD (Red-Green-Refactor).
 
-**Regras:**
-- Cupom 'DEZ': 10% de desconto.
-- Cupom 'TRINTA': 30% de desconto.
+### Regras de Negócio:
+- Cupom **'DEZ'**: 10% de desconto.
+- Cupom **'TRINTA'**: 30% de desconto.
 - Outros: Sem desconto.
+
+### Como rodar:
+```bash
+npm install && npm test
+```
